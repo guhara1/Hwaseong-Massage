@@ -21,7 +21,8 @@ _LIVING_CARDS = "".join(
     for slug, name in LIVING
 )
 
-_JSONLD = f"""<link rel="preload" as="image" href="/assets/hero.webp" type="image/webp" fetchpriority="high">
+_JSONLD = f"""<meta name="naver-site-verification" content="53e3ba5abe8e99ea55ebf39203fdb6a65ffb8056" />
+<link rel="preload" as="image" href="/assets/hero.webp" type="image/webp" fetchpriority="high">
 <script type="application/ld+json">
 {{
   "@context": "https://schema.org",
