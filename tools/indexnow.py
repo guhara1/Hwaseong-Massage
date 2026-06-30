@@ -9,7 +9,7 @@ IndexNow는 한 곳에 제출하면 참여 검색엔진(Bing, Naver, Yandex, Sez
   python3 tools/indexnow.py
 
   # 특정 URL만 제출(글 새로 올릴 때마다)
-  python3 tools/indexnow.py https://hwaseong-massage.pages.dev/hwaseong/dongtan/dongtan-chuljangmassage/
+  python3 tools/indexnow.py https://hwaseong-massage.netlify.app/hwaseong/dongtan/dongtan-chuljangmassage/
 
 키 파일(<KEY>.txt)이 사이트 루트에 실제로 게시(배포)된 뒤에 호출해야 한다.
 표준 라이브러리만 사용하므로 별도 설치가 필요 없다.

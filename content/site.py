@@ -1,6 +1,6 @@
 # 사이트 공통 설정
-BASE_URL = "https://hwaseong-massage.pages.dev"
-SITE_HOST = "hwaseong-massage.pages.dev"
+BASE_URL = "https://hwaseong-massage.netlify.app"
+SITE_HOST = "hwaseong-massage.netlify.app"
 
 # IndexNow 키 — 루트에 <KEY>.txt 파일로 게시되어 빙·네이버에 즉시 색인 통보에 사용
 INDEXNOW_KEY = "900b3cd64cd27b2ba78482905d003368"

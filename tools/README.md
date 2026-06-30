@@ -22,7 +22,7 @@ python3 tools/indexnow.py <새로 올린 URL>         # 글 올릴 때마다 즉
 ```
 
 > HTTP 200/202 = 정상. 403이 뜨면 키 파일이 아직 배포되지 않은 것이니,
-> `https://hwaseong-massage.pages.dev/900b3cd64cd27b2ba78482905d003368.txt`
+> `https://hwaseong-massage.netlify.app/900b3cd64cd27b2ba78482905d003368.txt`
 > 가 브라우저에서 열리는지 먼저 확인하세요.
 
 ## 2. Google Indexing API — 구글 직접 통보 (구글은 IndexNow 미참여)
@@ -59,7 +59,7 @@ python3 tools/google_indexing.py <URL>          # 특정 URL
 
 ```bash
 python3 build.py                                  # 사이트맵·RSS 갱신
-git add -A && git commit -m "..." && git push     # 배포(Cloudflare Pages)
+git add -A && git commit -m "..." && git push     # 배포(Netlify)
 python3 tools/indexnow.py <새 URL>                 # 빙·네이버 즉시 통보
 python3 tools/google_indexing.py <새 URL>          # 구글 즉시 통보(선택)
 ```
